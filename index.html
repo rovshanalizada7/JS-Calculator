@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <section>
+
+        <div class="calculator">
+
+            <input type="text" placeholder="0">
+
+            <div class="btns">
+
+                <button onclick="countNum('1')">1</button>
+                <button onclick="countNum('2')">2</button>
+                <button onclick="countNum('3')">3</button>
+                <button onclick="countNum('+')">+</button>
+                </br>
+                <button onclick="countNum('4')">4</button>
+                <button onclick="countNum('5')">5</button>
+                <button onclick="countNum('6')">6</button>
+                <button onclick="countNum('-')">-</button>
+                </br>
+                <button onclick="countNum('7')">7</button>
+                <button onclick="countNum('8')">8</button>
+                <button onclick="countNum('9')">9</button>
+                <button onclick="countNum('*')">x</button>
+                </br>
+                <button onclick="clearAll()" class="btnC">c</button>
+                <button onclick="countNum('0')">0</button>
+                <button onclick="calculateValue()">=</button>
+                <button onclick="countNum('/')">/</button>
+                </br>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
